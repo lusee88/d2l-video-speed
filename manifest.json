@@ -6,6 +6,21 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage"]
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/fast_forward16.png",
+            "32": "/images/fast_forward32.png",
+            "48": "/images/fast_forward48.png",
+            "128": "/images/fast_forward128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/fast_forward16.png",
+        "32": "/images/fast_forward32.png",
+        "48": "/images/fast_forward48.png",
+        "128": "/images/fast_forward128.png"
+      }
 }
 
